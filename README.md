@@ -1,5 +1,5 @@
 # PythonExerc
-Estou aprendo
+Estou aprendo python, então resolvi colocar alguns dos meus exercícios aqui no GitHub.
 <br>
 
 ## Lista
