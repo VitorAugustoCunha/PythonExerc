@@ -1,4 +1,5 @@
 # PythonExerc
+Estou aprendo
 <br>
 
 ## Lista
