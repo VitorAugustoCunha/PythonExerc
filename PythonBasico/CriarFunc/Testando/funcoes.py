@@ -148,8 +148,57 @@ def loopSete():
         quadradonum = n**2
         print(f"O quadrado de {n} é {quadradonum}")
         n+=1
+        
+def loopOito():
+    n = int(input("Digite um número inteiro: "))
+    i = 1
+    
+    while i <= 0:
+        mul = i*n
+        i+=1
+        print(mul)
 
+def loopNove():
+    n = int(input("Digite um número inteiro: "))
+    rev = 0
+    
+    while n != 0:
+        r = n % 10
+        rev = rev * 10 + r
+        n = n // 10
+    print("Número ao contrário: ",rev)
 
+def loopDez():
+    i = 0
+    soma = 0
+    n = int(input("Digite um número inteiro: "))
+    f = n
+    r = 1
+    
+    while f != 0:
+        r *= f
+        f -= 1
+    print("Fatorial de ",n," é ",r)
+
+def loopOnze():
+    i = 0
+    soma = 0
+    
+    if i % 2 == 0:
+        soma+=i
+    i+=1
+
+def loopDoze():
+    i = 0
+    soma = 0
+    n = int(input("Digite um número inteiro: "))
+    f = n
+    r = 1
+    
+    while f != 0:
+        r*=f
+        f-=1
+    print("Fatorial de ",n," é ",r)
 
 
 
