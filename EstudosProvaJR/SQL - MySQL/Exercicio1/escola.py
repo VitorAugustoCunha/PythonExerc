@@ -38,7 +38,7 @@ class Sala2:
     self.nota3 = nota3
 
   def adicionar_aluno(self):
-    sql = (f"INSERT INTO sala1 (nome, nota1, nota2, nota3, media) VALUES (%s, %s, %s, %s, %s)")
+    sql = (f"INSERT INTO sala2 (nome, nota1, nota2, nota3, media) VALUES (%s, %s, %s, %s, %s)")
     mediaCalc = (self.nota1 + self.nota2 + self.nota3) / 3
     val = (self.nome, self.nota1, self.nota2, self.nota3, mediaCalc)
     mycursor.execute(sql, val)
